@@ -21,7 +21,6 @@ public class UserAction extends MappingDispatchAction {
 
 	UserDao userDao = new UserDao();
 
-
 	public ActionForward gett(ActionMapping mapping, ActionForm form, HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 
@@ -46,11 +45,3 @@ public class UserAction extends MappingDispatchAction {
 		return mapping.findForward(Status.SUCCESS);
 	}
 }
-
-
-//	<action path="/addUser"
-//	        type="action.UserAction"
-//	        name="userForm"
-//	        parameter="add">
-//	    <forward name="success" path="/list.do"/>
-//	</action>

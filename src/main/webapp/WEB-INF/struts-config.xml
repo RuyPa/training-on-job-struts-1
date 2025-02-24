@@ -21,7 +21,7 @@
             <forward name="success" path="/listUsers.jsp"/>            
         </action>
 			
-   		<action path="/addUser"
+ 		<action path="/addUser"
 		        type="action.UserAction"
 		        name="userForm"
 		        parameter="add">
